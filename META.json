@@ -44,6 +44,7 @@
       },
       "test" : {
          "requires" : {
+            "File::Temp" : "0",
             "Test::Deep" : "0",
             "Test::Exception" : "0",
             "Test::More" : "0",
@@ -59,6 +60,6 @@
          "web" : "https://github.com/NET-A-PORTER/Net-UPS.git"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
 
