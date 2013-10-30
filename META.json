@@ -20,11 +20,6 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Task::Weaken" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.30"
@@ -43,6 +38,7 @@
             "IO::File" : "0",
             "LWP::UserAgent" : "0",
             "Scalar::Util" : "0",
+            "Task::Weaken" : "0",
             "XML::Simple" : "0",
             "strict" : "0",
             "warnings" : "0"
@@ -66,6 +62,6 @@
          "web" : "https://github.com/NET-A-PORTER/Net-UPS.git"
       }
    },
-   "version" : "0.09"
+   "version" : "0.10"
 }
 
