@@ -1,5 +1,7 @@
 package Net::UPS::Address;
-$Net::UPS::Address::VERSION = '0.11';
+{
+  $Net::UPS::Address::VERSION = '0.12';
+}
 {
   $Net::UPS::Address::DIST = 'Net-UPS';
 }
@@ -59,7 +61,7 @@ sub is_poor_match {
 
 sub as_hash {
     my $self = shift;
-    my $shape = shift // 'AV';
+    my $shape = shift || 'AV';
 
     unless ( defined $self->postal_code ) {
         croak "as_string(): 'postal_code' is empty";
